@@ -1,0 +1,6 @@
+rvm:
+  - 1.9.3
+env:
+  - DB=postgresql
+script:
+  - RAILS_ENV=test bundle exec rake ci --trace 
