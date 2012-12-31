@@ -1,5 +1,8 @@
 ## What is Octopress?
 
+## Add Travis CI support.Run CI for bloger with windows.
+[![Build Status](https://travis-ci.org/wahyd4/junv-blog.png?branch=master)](https://travis-ci.org/wahyd4/junv-blog) Junv's Blog build status.   
+
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 
 1. **Octopress sports a clean responsive theme** written in semantic HTML5, focused on readability and friendliness toward mobile devices.
@@ -35,4 +38,3 @@ THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 - Proudly display the 'Powered by Octopress' credit in the footer.
 - Add your site to the Wiki so we can watch the community grow.  
 
-### Add Travis CI support.
