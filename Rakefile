@@ -27,6 +27,8 @@ new_post_ext    = "markdown"  # default new post file extension when using the n
 new_page_ext    = "markdown"  # default new page file extension when using the new_page task
 server_port     = "4000"      # port for preview server eg. localhost:4000
 
+github_repo     = "git@github.com:wahyd4/wahyd4.github.com.git"
+
 
 desc "Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]"
 task :install, :theme do |t, args|
@@ -251,11 +253,12 @@ multitask :push do
   cd "#{deploy_dir}" do
     system "git add ."
     system "git add -u"
+    system "git remote add blog #{github_repo}"
     puts "\n## Commiting: Site updated at #{Time.now.utc}"
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
-    system "git push origin #{deploy_branch} --force"
+    system "git push blog #{deploy_branch} --force"
     puts "\n## Github Pages deploy complete"
   end
 end
