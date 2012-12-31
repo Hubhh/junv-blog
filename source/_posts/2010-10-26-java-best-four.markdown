@@ -1,6 +1,7 @@
 ---
 title: 传说中的JAVA四大名著
 author: wahyd4
+comments: true
 layout: post
 permalink: /2010/10/java-best-four/
 categories:

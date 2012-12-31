@@ -1,6 +1,7 @@
 ---
 title: 我推荐
 author: wahyd4
+comments: true
 layout: page
 ---
 我希望把我日常生活中看到的、学到的一些好资料、东西分享给大家！希望和大家一起学习、成长！

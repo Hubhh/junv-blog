@@ -2,6 +2,7 @@
 title: end of the summer
 author: wahyd4
 layout: post
+comments: true
 permalink: /2010/09/end-of-the-summer/
 categories:
   - 《 theLun》

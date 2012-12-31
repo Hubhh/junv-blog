@@ -1,6 +1,7 @@
 ---
 title: 几款google chrome浏览器扩展程序（app）
 author: wahyd4
+comments: true
 excerpt: >
   笔者作为一个忠实的chrome粉丝，一直坚持用chrome浏览器，除了淘宝和网银这些不得不用IE。老实说你用过了chrome
   你就一点也不想再回去用IE 8这样的蜗牛浏览器，用chrome

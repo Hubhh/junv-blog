@@ -1,6 +1,7 @@
 ---
 title: you are beautiful.
 author: wahyd4
+comments: true
 layout: post
 permalink: /2010/11/you-are-beautiful/
 categories:
